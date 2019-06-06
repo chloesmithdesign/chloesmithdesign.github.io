@@ -1,0 +1,163 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 22px;
+	font-style:bolder;
+}
+
+a {
+	color:black;
+	font-size:18px;
+}
+
+a:hover {
+	color:white;
+	font-size:22px;
+}
+
+.background-peach {
+	background-color: peachpuff;
+}
+.background-lightcyan {
+	background-color:lightcyan;
+}
+.background-black{
+	background-color:black;
+}
+
+.background-lightgreen {
+	background-color: lightgreen;
+}
+
+.main {
+	padding: 10px;
+}
+
+.title {
+	font-size: 125px;
+
+}
+.maintitle{
+	font-size: 70px;
+	color:white;
+}
+
+.title2 {
+	font-size: 100px;
+}
+
+.width-50 {
+	width:50%;
+}
+
+.width-25 {
+	width:25%;
+}
+
+.width-75 {
+	width:75%;
+}
+
+.limited-edition {
+	background-color:lightcyan;
+	padding:8px;
+	font-weight:bold;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	padding-left:40px;
+}
+
+.absolute {
+	padding-left:30px;
+	width:40%;
+}
+
+.name{
+	font-style:italic;
+	font-size:25px;
+	text-align:left;
+	padding-left:40px;
+}
+
+.grilltext {
+	margin:40px;
+	font-family:courier;
+	font-weight:bold;
+	padding:20px;
+	border-radius:15px;
+	font-size:15px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 0px;
+}
+.grillmaintext {
+	margin:40px;
+	width:100px;
+	height:100px;
+	background-color:white;
+	font-family:courier;
+	font-weight:bold;
+	padding-left:28px;
+	padding-top:12px;
+	border-radius:15px;
+	font-size:70px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 0px;
+}
+
+.content {
+	font-size:20px;
+	text-align:left;
+	padding-left:40px;
+}
+
+.masthead {
+  background-image:url("file:///Users/Chloe/Desktop/Monash/Year%203/STUDIO/DIGITAL%20P/csmith.github.io/GRILL%20WEBSITE/GRILL/assets/images/FRONT%20copy.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh;
+  width:100vw;
+}
+
+.overlay img {
+
+}
+
+.box {
+	position:fixed;
+	width:100%;
+	top:0px;
+	background:black;
+	color:white;
+	padding:10px;
+	font-family:courier;
+}
+.boxtext {
+	font-size:15px;
+}
+
+img {
+	width: 100%;
+	position:flex;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.position {
+	position:fixed;
+	width:15%;
+	top:5%;
+	left:-1%;
+}
+
+/*.position2 {
+	position:relative;
+	top:-40px;
+}*/
+
+.width {
+	width:30%;
+	text-align:right;
+}
+
+
