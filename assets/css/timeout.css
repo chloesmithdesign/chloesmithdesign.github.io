@@ -1,0 +1,31 @@
+.timeouttext {
+	font-size: 24vw;
+	font-family:courier;
+	font-weight:bold;
+}
+
+.timeouttext1 {
+	font-size: 15vw;
+	font-family:courier;
+	font-weight:bold;
+}
+
+.timeouttext2 {
+	font-size: 10vw;
+	font-family:courier;
+	font-weight:bold;
+}
+
+.text-1.active {
+	color:#FEBB33;
+}
+
+
+.title-2.active{
+	color:#FEBB33;
+}
+
+.title-3.active{
+	color:#FEBB33;
+}
+}

@@ -1,0 +1,20 @@
+.title {
+	font-size: 24vw;
+	text-align: center;
+}
+
+.toggle-title:hover {
+	color:#DA88F0;
+	font-size:22px;
+	border-bottom:3px solid #DA88F0;
+}
+
+.toggle-title {
+	border-bottom:3px solid #000;
+	cursor: pointer;
+}
+
+.toggle-content {
+	display: none;
+}
+
