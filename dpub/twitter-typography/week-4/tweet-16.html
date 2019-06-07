@@ -50,40 +50,37 @@
 	    top:40.8%;
 	    left:25%;
     }
-    .body3{
+    .body{
     	font-family:"Georgia", serif;
-		font-size:50px;
+		font-size:100px;
 		color:#D0B0BF;
-		width:300px;
-		text-align:center;
 		font-weight:bolder;
 		position:absolute;
-		height:400px;
+		height:700px;
 	    overflow:scroll;
-	    width:50%;
-	    top:41.6%;
-	    left:25%;
+	    top:20%;
+	    text-shadow: 3px 3px 0px white;
     }
 
-    .a{
-        -webkit-transition: color 2s; /* For Safari 3.0 to 6.0 */
-        transition: color 2s; /* For modern browsers */
-    }
-    .a:hover {
-        color: #89DCC3;
+  .blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #A91F7E;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #A91F7E;    }
+}
 
 </style>
 </body>
 <div class="box">
     S8N <span class="boxtext">April 12th 4:30pm</span>
   </div>
-<div class="body">
-	"GOD HAS THE MOST TOXIC FAN BASE"
+<div class="body blinking">
+	GOD HAS THE MOST TOXIC FAN BASE
 </div>
-<div class="body2">
-	"GOD HAS THE MOST TOXIC FAN BASE"
-</div>
-<div class="body3 a">
-	"GOD HAS THE MOST TOXIC FAN BASE"
-</div>
+
+
 </html>
