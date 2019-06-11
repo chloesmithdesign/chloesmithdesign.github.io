@@ -209,15 +209,16 @@ img {
 	left:28px;
 	width:78%;
 	font-family:courier;
-	font-size:26px;
+	font-size:20px;
 	z-index: 9;
 	color:#fff;
 	display: none;
 }
 
 .caption.showcaption {
-	color:#951642;
+	color:red;
 	display: block;
+	text-shadow: 2px 2px 8px #22EFFF;
 }
 
 .centered {
