@@ -205,18 +205,18 @@ img {
 
 .caption {
 	position: absolute;
-	top:80px;
+	top:200px;
 	left:28px;
 	width:78%;
 	font-family:courier;
-	font-size:20px;
+	font-size:26px;
 	z-index: 9;
 	color:#fff;
 	display: none;
 }
 
 .caption.showcaption {
-	color:#DA88F0;
+	color:#951642;
 	display: block;
 }
 
